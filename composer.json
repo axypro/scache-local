@@ -1,0 +1,31 @@
+{
+    "name": "axy/scache-local",
+    "type": "library",
+    "description": "Local cache of process",
+    "keywords": [
+        "Cache"
+    ],
+    "homepage": "https://github.com/axypro/scache-local",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oleg Grigoriev",
+            "email": "go.vasac@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "axy/scache-icache": "0.1.1"
+    },
+    "provide": {
+        "axy/scache-icache-implementation": "0.1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "axy\\scache\\local\\": ""
+        }
+    },
+    "archive": {
+        "exclude": ["/tests/*", "/doc/*", "/cs.sh", "/phpmd.sh", "/*.xml.dist", "/CHANGELOG.md"]
+    }
+}
