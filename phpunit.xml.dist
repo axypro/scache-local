@@ -19,10 +19,11 @@
 
     <filter>
         <whitelist>
-            <directory>.</directory>
+            <directory>./</directory>
             <exclude>
                 <directory>./vendor/</directory>
-                <directory>./tests/</directory>
+                <directory>./tests</directory>
+                <file>./index.php</file>
             </exclude>
         </whitelist>
     </filter>
