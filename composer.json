@@ -27,7 +27,8 @@
     },
     "autoload": {
         "psr-4": {
-            "axy\\scache\\local\\": ""
+            "axy\\scache\\local\\": "src",
+            "axy\\scache\\local\\tests\\": "tests"
         }
     },
     "archive": {
